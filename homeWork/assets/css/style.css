@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: royalblue;
+}
+.a{
+    position: absolute;
+    width: 1000px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    left: 14%;
+    top: 10%;
+}
+.b{
+    position: absolute;
+    font-family:  monospace;
+    font-size: large;
+    left: 15%;
+    top: 12%;
+}
+.c{
+    position: absolute;
+    font-family: monospace;
+    font-size: large;
+    left: 65%;
+    top: 12%;
+}
+.d{
+    position: absolute;
+    font-family: monospace;
+    font-size: large;
+    left: 72%;
+    top: 12%;
+}
+.e{
+    position: absolute;
+    font-family: monospace;
+    font-size: large;
+    left: 80%;
+    top: 12%;
+}
+.f{
+    position: absolute;
+    font-family: monospace;
+    font-size: xx-large;
+    left: 20%;
+    top: 30%;
+}   
+.g{
+    position: absolute;
+    font-family: monospace;
+    font-size: xx-large;
+    left: 20%;
+    top: 37%;
+}
+.h{
+    position: absolute;
+    font-family: monospace;
+    font-size: xx-large;
+    left: 20%;
+    top: 44%;
+}
+.i{
+    position: absolute;
+    width: 90px;
+    height: 40px;
+    background-color: royalblue;
+    left: 22%;
+    top: 53.5%;
+    border-radius: 10px;
+}
+.j{
+    position: absolute;
+    color: white;
+    font-family: monospace;
+    font-size: large;
+    left: 22%;
+    top: 55%;
+}
+.k{
+    position: absolute;
+    left: 43%;
+    top: 20%;
+}
+.l{
+    position: absolute;
+    font-family: monospace;
+    font-size: large;
+    right: 43%;
+    top: 75%;
+}
+.m{
+    position: absolute;
+    font-family: monospace;
+    font-size: large;
+    left: 46%;
+    top: 83%;
+}
+.t{
+    position: absolute;
+    left: 75%;
+    top: 65%;
+    transition: 1s;
+}
+.s{
+    position: absolute;
+    left: 69%;
+    top: 20%;
+    transform: rotate(18deg);
+    transition: 1s;
+}
+.u{
+    position: absolute;
+    left: 48.3%;
+    top: 25%;
+    transform: rotate(-18deg);
+    transition: 1s;
+}
+.b:hover{
+    color: red;
+}
+.c:hover{
+    color: red;
+}
+.d:hover{
+    color: red;
+}
+.e:hover{
+    color: red;
+}
+.f:hover{
+    color: seagreen;
+}
+.g:hover{
+    color: seagreen;
+}
+.h:hover{
+    color: seagreen;
+}
+.j:hover{
+    color: black;
+}
+.l:hover{
+    
+}
+.l:hover{
+    color: orangered;
+}
+.s:hover{
+    transition: 1s;
+    transform: rotate(0);
+}
+.u:hover{
+    transition: 1s;
+    transform: rotate(0);
+}
+.t:hover{
+    transition: 1s;
+    transform: rotate(360deg);
+}
